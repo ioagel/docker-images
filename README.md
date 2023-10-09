@@ -20,3 +20,13 @@ location /healthz {
 ```
 
 Use `/healthz` endpoint with either a GET or an OPTIONS request
+
+```shell
+docker pull ioagel/nginx-healthz:1.25-alpine
+```
+
+## Mysql container with minio client for backups/restores
+
+```shell
+docker pull ioagel/mysql-minio:8.1
+```
