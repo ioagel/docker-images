@@ -2,7 +2,7 @@ SHELL := /bin/bash
 
 export DOCKER_BUILDKIT=1
 
-MYSQL_VERSION = 8.1
+MYSQL_VERSION = 8.0
 NGINX_HEALTHZ_VERION := 1.25-alpine
 MYSQL_MINIO_VERSION := $(MYSQL_VERSION) # follows mysql versions
 MYSQL_RSYNC_VERSION := $(MYSQL_VERSION) # follows mysql versions
